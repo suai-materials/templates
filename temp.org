@@ -1,0 +1,13 @@
+#+LANGUAGE: ru
+#+latex_header: \usepackage[utf8x]{inputenc}
+#+latex_header: \usepackage[T2A]{fontenc}
+#+latex_header: \usepackage[russian]{babel}
+#+latex_header: \usepackage{tempora}
+#+latex_header: \usepackage{geometry}
+#+latex_header: \geometry{a4paper, left=30mm, top=20mm, bottom=20mm, right=15mm }
+#+latex_header: \usepackage{graphicx}
+#+latex_header: \usepackage{array}
+#+latex_header: \usepackage{tabularx}
+
+#+AUTHOR: В.Д. Панков
+
