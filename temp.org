@@ -8,6 +8,15 @@
 #+latex_header: \usepackage{graphicx}
 #+latex_header: \usepackage{array}
 #+latex_header: \usepackage{tabularx}
+#+latex_header: \usepackage{listings}
+#+latex_header: \usepackage{float}
+#+latex_header: \usepackage{setspace}
+#+LATEX_HEADER: \usepackage{tabularx}
+#+latex_header: \usepackage{longtable}
+
 
 #+AUTHOR: В.Д. Панков
 
+#+begin_export latex
+\linespread{1.25}
+#+end_export
