@@ -1,4 +1,6 @@
 #+LANGUAGE: ru
+#+latex_class: extarticle
+#+latex_class_options: [a4paper,14pt]
 #+latex_header: \usepackage[utf8x]{inputenc}
 #+latex_header: \usepackage[T2A]{fontenc}
 #+latex_header: \usepackage[russian]{babel}
@@ -13,6 +15,19 @@
 #+latex_header: \usepackage{setspace}
 #+LATEX_HEADER: \usepackage{tabularx}
 #+latex_header: \usepackage{longtable}
+#+latex_header: \usepackage{titlesec}
+#+latex_header: \titleformat*{\section}{\large\bfseries}
+#+latex_header: \titleformat*{\subsection}{\normalsize\bfseries}
+#+latex_header: \titleformat*{\subsubsection}{\normalsize\bfseries}
+#+latex_header: \addto\captionsrussian{\renewcommand{\contentsname}{\centering \normalsize СОДЕРЖАНИЕ}}
+#+latex_header: \addtocontents{toc}{\protect\thispagestyle{empty}}
+#+latex_header: \usepackage{titletoc}
+#+latex_header: \titlecontents{section}[0pt]{}{\contentsmargin{0pt} \thecontentslabel\enspace}{\contentsmargin{0pt}}{\titlerule*[0.5pc]{.}\contentspage}[]
+#+latex_header: \dottedcontents{subsection}[3.1em]{}{1.5em}{0.5pc}
+#+latex_header: \usepackage{caption}
+#+latex_header: \captionsetup[figure]{name=Рисунок}
+
+
 
 
 #+AUTHOR: В.Д. Панков
