@@ -25,7 +25,14 @@
 #+latex_header: \titlecontents{section}[0pt]{}{\contentsmargin{0pt} \thecontentslabel\enspace}{\contentsmargin{0pt}}{\titlerule*[0.5pc]{.}\contentspage}[]
 #+latex_header: \dottedcontents{subsection}[3.1em]{}{1.5em}{0.5pc}
 #+latex_header: \usepackage{caption}
-#+latex_header: \captionsetup[figure]{name=Рисунок}
+#+latex_header: \DeclareCaptionLabelSeparator{custom}{ -- }
+#+latex_header: \captionsetup[figure]{name=Рисунок, labelsep=custom, font={onehalfspacing}, justification=centering}
+#+latex_header: \usepackage{ragged2e}
+#+latex_header: \justifying
+#+latex_header: \setlength\parindent{1.25cm}
+#+latex_header: \sloppy
+#+latex_header: \usepackage{indentfirst}
+
 
 
 
